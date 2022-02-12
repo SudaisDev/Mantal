@@ -222,7 +222,7 @@ def result():
 			time.sleep(2)
 			back()
 		if len(vin)==0:
-			haha = '# YOU DON'T HAVE RESULTS OK'
+			haha = '# YOU DONT HAVE RESULTS OK'
 			sol().print(mark(haha, style='yellow'))
 			time.sleep(2)
 			back()
