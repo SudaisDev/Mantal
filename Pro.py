@@ -184,7 +184,7 @@ def result():
 			time.sleep(2)
 			back()
 		if len(vin)==0:
-			haha = '# YOU DON'T HAVE RESULT CP'
+			haha = '# YOU DONT HAVE RESULT CP'
 			sol().print(mark(haha, style='yellow'))
 			time.sleep(2)
 			back()
