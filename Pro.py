@@ -64,16 +64,16 @@ def back():
 # BANNER
 def banner():
 	clear()
-	wel = '# WELCOME TO FACEBOOK  TOOLS 2K22'
+	wel = '# WELCOME TO FACEBOOK Cloning TOOLS '
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2, style='on red')
-	ise = '# INFORMASI PENGEMBANG'
+	ise = '# DEVELOPER INFORMATION'
 	fc = mark(ise, style='green')
 	sol().print(fc)
 	tap = me()
 	tap.add_column('Author', style='yellow', justify='center')
 	tap.add_column('Github', style='yellow', justify='center')
-	tap.add_row('Sptty Chan','https://github.com/sptty-chan')
+	tap.add_row('Sptty Chan','https://github.com/Jindy')
 	sol().print(tap, justify='center')
 
 # VALIDATION TOKEN
