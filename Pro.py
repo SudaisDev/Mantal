@@ -15,7 +15,7 @@ except ImportError:
 	try:
 		import rich
 	except ImportError:
-		exit('Can't Install Rich Module, Try Manual Install (pip install rich)')
+		exit('Cant Install Rich Module, Try Manual Install (pip install rich)')
 
 from rich.table import Table as me
 from rich.console import Console as sol
